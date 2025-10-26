@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="left-side">
+        <div id="logo">HIKARI</div>
+        <p>Photo by <a href="fvjuihv"></a>on <a href="pexels"></a></p>
+    </div>
+    <div class="right-side">
+        <div class="upper-text">
+            <p>“Step into the space where your own light leads the way.”</p>
+        </div>
+
+        <div class="main-text">
+            <form id="signup" method="post">
+                <legend>LET THE ADVENTURE BEGIN!!</legend>
+
+                <div class="row">
+                    <div class="field">
+                        <label for="fname">FIRST NAME</label>
+                        <input type="text" id="fname" name="firstName" placeholder="John" required>
+                    </div>
+                    <div class="field">
+                        <label for="lname">LAST NAME</label>
+                        <input type="text" id="lname" name="lastName" placeholder="Doe" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="field">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    </div>
+                    <div class="field">
+                        <label for="pnumber">PHONE NUMBER</label>
+                        <input type="tel" id="pnumber" name="phoneNumber" placeholder="+1234567890">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="field">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="field">
+                        <label for="cpassword">CONFIRM PASSWORD</label>
+                        <input type="password" id="cpassword" name="cpassword" required>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+        <div class="lower-text">
+            <button>CREATE ACCOUNT</button>
+            <p>Already have an account?<a href="">Log in</a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
